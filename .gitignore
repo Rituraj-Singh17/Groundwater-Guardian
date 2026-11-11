@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+backend/.env
+
+# Groundwater Guardian local datasets
+datasets/raw/
+datasets/processed/
+backend/.venv/
