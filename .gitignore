@@ -225,3 +225,6 @@ backend/.env
 datasets/raw/
 datasets/processed/
 backend/.venv/
+
+# Node.js dependencies
+node_modules/
