@@ -228,3 +228,7 @@ backend/.venv/
 
 # Node.js dependencies
 node_modules/
+
+# Frontend local environment files
+.env.local
+.env.*.local
