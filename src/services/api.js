@@ -39,7 +39,7 @@ export function getErrorMessage(error) {
 export function unwrapList(data) {
   if (Array.isArray(data)) return data;
   if (!data || typeof data !== "object") return [];
-  for (const key of ["items", "results", "data", "stations", "alerts", "maintenance"]) {
+  for (const key of ["items", "results", "data", "stations", "alerts", "maintenance", "maintenance_records"]) {
     if (Array.isArray(data[key])) return data[key];
   }
   return [];
